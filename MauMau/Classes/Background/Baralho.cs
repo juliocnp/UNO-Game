@@ -15,7 +15,7 @@ namespace MauMau.Classes.Background
         /// Lista de todas as cartas do baralho
         /// </summary>
         private Lista<Carta> cartas = new Lista<Carta>();
-        private Random RAM = new Random();
+        public Random RAM = new Random();
 
         public Baralho()
         {
